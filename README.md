@@ -1,16 +1,41 @@
-# React + Vite
+# Trendsattire
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A demo storefront for Trendsattire, "Wear what moves you": print-led dresses, maxis, co-ords and kurta sets. 48 pieces from ₹1,499 to ₹3,999 in sizes XS to XXL.
 
-Currently, two official plugins are available:
+## Run it
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+Build with `npm run build`, then preview with `npm run preview`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What works
 
-## Expanding the Oxlint configuration
+- **Home:**
+  - "Wear what twirls you" hero with rotating verbs, three-depth parallax looks and a product tag.
+  - New in tabs, the promo mosaic with a sale tile, and the scroll-linked "Made to move" strip.
+  - Summer capsule, promises, customer notes, coupon codes and an Instagram wall.
+- **Shop:**
+  - Category pages, with filters in the URL: fabric, mood, colour, price.
+  - Sort, and search with suggestions.
+- **Product page:**
+  - Gallery with zoom, size picker and size guide.
+  - Pincode check, reviews, related and recently viewed.
+- **Bag:**
+  - Drawer and full page.
+  - Free shipping progress over ₹1,499.
+  - Coupons: `MOVE10`, `TWIRL300` (₹2,499+), `SUMMER30` (₹6,999+).
+- **Checkout:**
+  - Address with pincode autofill, then UPI, card, net banking or COD (₹49).
+  - Order confirmation and order history on this device.
+- **Also:** wishlist, account, help/FAQ, about us, a 404 page and an error page.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+All data is local (`src/data`). The cart, wishlist and orders are saved in localStorage. No real payment is taken. Reviews and customer notes are sample content.
+
+## Stack
+
+- Vite, React 19, React Router 7 and Tailwind CSS v4.
+- Motion, Lenis and Phosphor icons.
+- Archivo font (variable weight and width).
