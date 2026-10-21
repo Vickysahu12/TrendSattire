@@ -91,13 +91,6 @@ export const testimonials = [
   { name: 'Riya Kapoor', city: 'Mumbai', rating: 5, productId: 't34', text: 'Lavender tiers and sneakers, the combination I did not know I needed.' },
 ]
 
-export const instagram = {
-  handle: '@trendsattire',
-  tag: '#WearWhatMovesYou',
-  href: 'https://instagram.com',
-  images: ['t11-1', 't16-1', 't28-1', 't43-1', 't20-1', 't27-1'],
-}
-
 export const offers = [
   { title: '10% off everything', code: 'MOVE10' },
   { title: '₹300 off above ₹2,499', code: 'TWIRL300' },
